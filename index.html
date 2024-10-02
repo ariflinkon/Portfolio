@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arif Jahan Linkon | Portfolio</title>
+    <!-- Include Tailwind CSS from the official CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Tailwind Configuration and Professional Font Import -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        html {
+            font-family: 'Inter', sans-serif;
+        }
+
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        /* Custom Color Theme */
+        .bg-primary {
+            background-color: #1A202C; /* Navy Blue */
+        }
+
+        .text-accent {
+            color: #D69E2E; /* Gold */
+        }
+
+        .border-accent {
+            border-color: #D69E2E; /* Gold */
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white py-20">
+        <div class="container mx-auto text-center px-4">
+            <h1 class="text-5xl font-bold">Arif Jahan Linkon</h1>
+            <p class="text-2xl mt-4">Software Engineer | Frontend Developer | IT Specialist</p>
+            <div class="mt-8">
+                <a href="#contact" class="bg-accent text-primary px-8 py-3 rounded-full font-semibold shadow-md hover:bg-yellow-500 transition duration-300">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto flex justify-center space-x-10 py-4 text-lg">
+            <a href="#about" class="hover:text-accent transition">About</a>
+            <a href="#skills" class="hover:text-accent transition">Skills</a>
+            <a href="#experience" class="hover:text-accent transition">Experience</a>
+            <a href="#education" class="hover:text-accent transition">Education</a>
+            <a href="#portfolio" class="hover:text-accent transition">Portfolio</a>
+            <a href="#contact" class="hover:text-accent transition">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-20 space-y-20">
+
+        <!-- About Section -->
+        <section id="about" class="text-center">
+            <h2 class="text-4xl font-bold mb-8 text-primary">Hello, I'm Arif Jahan Linkon</h2>
+            <p class="text-lg max-w-3xl mx-auto text-gray-700 leading-relaxed">
+                Highly motivated and detail-oriented Computer Science and Engineering graduate with a strong foundation in software development, IT support, network configuration, and security management. Experienced in designing, coding, and testing applications across various platforms. Proven ability to deliver high-quality work in a team-oriented environment. Seeking a challenging software engineering role to leverage technical skills and grow professionally.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="text-4xl font-bold mb-10 text-center text-primary">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300 border-l-4 border-accent">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">Programming Languages</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>C++ (basic)</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300 border-l-4 border-accent">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">Web Technologies</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>HTML, CSS</li>
+                        <li>React, Node.js, Express</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300 border-l-4 border-accent">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">Databases</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300 border-l-4 border-accent">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">Tools & Platforms</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Git, Docker, Jenkins</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300 border-l-4 border-accent">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">Operating Systems</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Windows, Linux</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300 border-l-4 border-accent">
+                    <h3 class="text-xl font-semibold mb-4 text-primary">Other Skills</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Network Configuration</li>
+                        <li>IT Support</li>
+                        <li>Security Management</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2 class="text-4xl font-bold mb-10 text-center text-primary">Experience</h2>
+            <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition duration-300">
+                <h3 class="text-2xl font-semibold mb-2 text-primary">Frontend Software Engineer (Intern)</h3>
+                <p class="text-accent font-medium mb-4">July 2024 - PRESENT | Itransition Group</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Developed and maintained web applications using JavaScript, React, and Node.js. Collaborated with a team to design and implement new features and functionality. Conducted code reviews and provided feedback to peers to maintain code quality.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2 class="text-4xl font-bold mb-10 text-center text-primary">Education</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-2 text-primary">Bachelor of Computer Science & Engineering</h3>
+                    <p class="text-accent font-medium">2017-2020 | Hajee Mohammad Danesh Science & Technology University</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-2 text-primary">Complete Web Development Course</h3>
+                    <p class="text-accent font-medium">2022 (6 Months) | Programming Hero</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2 class="text-4xl font-bold mb-10 text-center text-primary">Portfolio Works</h2>
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+                <!-- Portfolio Links with a More Professional Look -->
+                <a href="http://leminar.net" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Leminar.net</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Corporate website for HVAC solutions.</p>
+                </a>
+                
+                <a href="https://gallowayacoustics.com" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Galloway Acoustics</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Acoustic solutions provider website.</p>
+                </a>
+
+                <!-- Added a similar professional card style for all other portfolio links provided -->
+
+                <a href="https://lokker.com/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Lokker</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Privacy and data protection solutions.</p>
+                </a>
+
+                <a href="https://md-healthcareconsulting.com" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">MD Healthcare Consulting</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Consulting services in healthcare industry.</p>
+                </a>
+                
+                <a href="https://dc9.com.sg" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">DC9 Singapore</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Local services and business solutions.</p>
+                </a>
+
+                <!-- Continue adding all the project links in the same manner -->
+                <a href="https://piercefootwear.com" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Pierce Footwear</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Footwear solutions provider.</p>
+                </a>
+
+                <a href="https://centeredcityyoga.com" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Centered City Yoga</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Yoga and wellness center.</p>
+                </a>
+
+                <a href="https://etqanapp.com" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Etqan App</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Mobile application for various services.</p>
+                </a>
+
+                <a href="https://nayef-tower.com/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Nayef Tower</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Real estate and property management.</p>
+                </a>
+
+                <a href="https://buysocialdirect.com/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Buy Social Direct</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Social media marketing services.</p>
+                </a>
+
+                <a href="https://logislock.ae/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Logislock</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Logistics and supply chain solutions.</p>
+                </a>
+
+                <a href="https://elvisvantomato.com/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Elvis Van Tomato</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Creative design and branding services.</p>
+                </a>
+
+                <a href="https://gurugovinddairy.co.in/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Guru Govind Dairy</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Dairy products and services.</p>
+                </a>
+
+                <a href="https://timechamp.io/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Time Champ</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Time management and productivity tools.</p>
+                </a>
+
+                <a href="https://offerglobe.com" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Offer Globe</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Global offers and deals platform.</p>
+                </a>
+
+                <a href="https://tribebyamrapali.com" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Tribe by Amrapali</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Jewelry and accessories brand.</p>
+                </a>
+
+                <a href="https://www.hoteljournals.com" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Hotel Journals</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Hotel reviews and travel guides.</p>
+                </a>
+
+                <a href="https://cloudnote.vercel.app" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Cloud Note</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Cloud-based note-taking application.</p>
+                </a>
+
+                <a href="https://dit.io.zeeshanasghar.us/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">DIT.io</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Digital transformation solutions.</p>
+                </a>
+
+                <a href="http://milleniumdevelopers.project.zeeshanasghar.us/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Millenium Developers</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Real estate development services.</p>
+                </a>
+
+                <a href="https://modestonline.us.zeeshanasghar.us/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Modest Online</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Online fashion and apparel store.</p>
+                </a>
+
+                <a href="https://zeeshanasghar.us/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Zeeshan Asghar</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Personal portfolio and blog.</p>
+                </a>
+
+                <a href="https://investpulse.com.au/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Invest Pulse</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Investment and financial services.</p>
+                </a>
+
+                <a href="https://1800autoshop.com/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">1800 Auto Shop</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Automotive repair and services.</p>
+                </a>
+
+                <a href="https://mefzstyle.com/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">MEFZ Style</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Fashion and lifestyle brand.</p>
+                </a>
+
+                <a href="https://plspeak.com/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">PL Speak</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Public speaking and communication skills.</p>
+                </a>
+
+                <a href="https://jammaround.com/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Jamm Around</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Music collaboration platform.</p>
+                </a>
+
+                <a href="https://travelinventor.com/" target="_blank" class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <div class="mb-4">
+                        <h3 class="font-semibold text-lg text-primary">Travel Inventor</h3>
+                    </div>
+                    <p class="text-sm text-gray-600">Travel planning and booking services.</p>
+                </a>
+
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="text-center">
+            <h2 class="text-4xl font-bold mb-10 text-primary">Contact Me</h2>
+            <div class="flex justify-center space-x-8">
+                <a href="https://www.linkedin.com/in/ariflinkon" target="_blank" class="text-accent hover:text-yellow-500 transition duration-300 font-medium">LinkedIn</a>
+                <a href="https://github.com/ariflinkon" target="_blank" class="text-accent hover:text-yellow-500 transition duration-300 font-medium">GitHub</a>
+                <a href="mailto:arifjahanlinkon7931@gmail.com" class="text-accent hover:text-yellow-500 transition duration-300 font-medium">Email</a>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-primary text-white text-center py-6">
+        <p class="text-sm">&copy; 2024 Arif Jahan Linkon. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
